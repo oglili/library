@@ -4,7 +4,7 @@ function getBook() {
     output.innerHTML = '';
     spinner.removeAttribute('hidden');
     
-    fetch("http://openlibrary.org/search.json?q="+document.getElementById('input').value) 
+    fetch("https://openlibrary.org/search.json?q="+document.getElementById('input').value) 
     .then(response => response.json())
     .then(data => {
         spinner.setAttribute('hidden', '');
@@ -19,7 +19,7 @@ function getBook() {
             a.setAttribute('href', 'https://openlibrary.org'+book.key);
             a.setAttribute('target', '_blank');
             let img = document.createElement('img');
-            img.setAttribute('src', 'http://covers.openlibrary.org/b/isbn/'+book.isbn[0]+'-M.jpg');
+            img.setAttribute('src', 'https://covers.openlibrary.org/b/isbn/'+book.isbn[0]+'-M.jpg');
             img.setAttribute('alt', 'Image Not Available');
             img.setAttribute('title', 'Click to Read or Borrow');
             a.appendChild(img);

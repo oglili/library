@@ -6,8 +6,6 @@
 body {
   font-family: 'Caveat Brush', cursive;
   color: #1a1a37;
-  
-  
 }
 
 img {
@@ -15,7 +13,7 @@ img {
 }
 #spinner:not([hidden]) {
   position: fixed;
-  top: 50px;
+  top: 60px;
   left: 0;
   right: 0;
   bottom: 0;
