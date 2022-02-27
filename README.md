@@ -22,7 +22,7 @@ Project is created with:
 By entering the title of a book on the search bar and clicking on the adjacent button you will be able to view all available books related to that title, and once you click on the info button you will be able to see the description of the book if available. If not available clicking on the book cover or below the book title will open another window for more details .
 
 ## Illustrations
-![Initial Screen](asset/image/app_img1.jpg)            ![After Screen](asset/image/app_img2.jpg)
+![Initial Screen](asset/image/app_img1.jpg)                                ![After Screen](asset/image/app_img2.jpg)
 
 ## Links
 Link to App:
