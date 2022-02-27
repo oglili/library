@@ -25,9 +25,9 @@ By entering the title of a book on the search bar and clicking on the adjacent b
 ![Initial Screen](asset/image/app_img1.png)![After Screen](asset/image/app_img2.png)
 
 ## Links
-Link to App.
-https://js-counter-js.netlify.app/
-Link to Github.
+Link to App:
+https://og-library.netlify.app/
+Link to Github:
 https://github.com/oglili/library
 
 ## Contributing
